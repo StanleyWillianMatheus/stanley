@@ -1,2 +1,0 @@
-# Stanley
-Stanley

@@ -1,9 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title>Stanley Willian Matheus</title>
+    <title>Glass</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Stanley Colocar uma descrição" />
+    <meta name="keywords" content="palavras que vao ajudar a aparecer no google, sendo separado por virgula" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Stanley Willian Matheus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<h1>teste</h1>
+    <header>
+        <a href="index.html"><h1 class="logo">SW</h1></a>
+        <button class="btn-menu">
+            <img src="img/menu.png">
+        </button>
+        <nav class="menu">
+            <a class="btn-close">x</a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Inicio1</a></li>
+                <li><a href="#">Inicio2</a></li>
+                <li><a href="#">Inicio3</a></li>
+            </ul>
+        </nav>
+        <!-- jquery para o menu -->
+        <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $(".btn-menu").click(function(){
+                    $(".menu").show();
+                });
+                $(".btn-close").click(function(){
+                    $(".menu").hide();
+                });
+            });
+        </script>
+        <!-- jquery para o menu -->
+    </header>
+
+
+
+    <section>
+ 
+    </section>
+
+    <aside>
+        
+    </aside>
+
+    <footer>
+
+       
+    </footer>
 </body>
 </html>
