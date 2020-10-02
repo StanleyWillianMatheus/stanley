@@ -81,3 +81,8 @@ header{
 .menu li a:hover{
     border: 1px solid red;
 }
+/*///////////////// BANNER /////////////////*/
+.banner{
+    background-image: url(../img/slider.png);
+    height: 250px;
+}
