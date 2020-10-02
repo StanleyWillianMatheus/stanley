@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     box-sizing: border-box;
-    font-family: verdana,serif;
+    font-family: arial,serif;
 }
 body{
     background-image: url(../img/body.png);
@@ -45,6 +45,7 @@ header{
     border-radius: 56px;
     cursor: pointer;
     margin: 5px;
+    background-color: rgba(255,255,255,255.5);
 }
 
 /*///////////////// MENU /////////////////*/
