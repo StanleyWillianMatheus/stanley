@@ -11,16 +11,17 @@
     <link rel="icon" href="img/icon.png" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">
+        h2{
+            text-align: center;
+            padding-top: 10px;
+        }
         table{
             border: black solid 1px;
             width: 310px;
             margin: auto;
             font-size: 10pt;
             text-align: left;
-            background-color: rgba(255, 255, 255, 0.5)
-        }
-        th{
-            border: black solid 1px;
+            background-color: rgba(255, 255, 255, 1)
         }
         td{
             padding: 5px;
@@ -68,199 +69,924 @@
     </div>
 
     <section>
-        <table>
-                <h2 class="">Tabela de Opacidade</h2>
-                <tr>
-                    <td>0</td>
-                    <td>0%</td>
-                </tr>
-                <tr>
-                    <td>0.1</td>
-                    <td>10%</td>
-                </tr>
-                <tr>
-                    <td>0.2</td>
-                    <td>20%</td>
-                </tr>
-                <tr>
-                    <td>0.3</td>
-                    <td>30%</td>
-                </tr>
-                <tr>
-                    <td>0.4</td>
-                    <td>40%</td>
-                </tr>
-                <tr>
-                    <td>0.5</td>
-                    <td>50%</td>
-                </tr>
-                <tr>
-                    <td>0.6</td>
-                    <td>60%</td>
-                </tr>
-                <tr>
-                    <td>0.7</td>
-                    <td>70%</td>
-                </tr>
-                <tr>
-                    <td>0.8</td>
-                    <td>80%</td>
-                </tr>
-                <tr>
-                    <td>0.9</td>
-                    <td>90%</td>
-                </tr>
-                <tr>
+        <article>
+            <table>
+                <h2>Tabela de Opacidade</h2>
+                <tr style="background-color: rgba(0,0,255, 1);">
                     <td>1</td>
                     <td>100%</td>
                 </tr>
+                <tr style="background-color: rgba(0,0,255, 0.9);">
+                    <td>0.9</td>
+                    <td>90%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.8);">
+                    <td>0.8</td>
+                    <td>80%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.7);">
+                    <td>0.7</td>
+                    <td>70%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.6);">
+                    <td>0.6</td>
+                    <td>60%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.5);">
+                    <td>0.5</td>
+                    <td>50%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.4);">
+                    <td>0.4</td>
+                    <td>40%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.3);">
+                    <td>0.3</td>
+                    <td>30%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.2);">
+                    <td>0.2</td>
+                    <td>20%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0.1);">
+                    <td>0.1</td>
+                    <td>10%</td>
+                </tr>
+                <tr style="background-color: rgba(0,0,255, 0);">
+                    <td>0</td>
+                    <td>0%</td>
+                </tr>
+            </table>
+                
+            <table>
+                <h2>Tons de Cinza - Gray Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color: black; color: #fff;">
+                    <td>Black</td>
+                    <td>#000000</td>
+                    <td>(0,0,0)</td>
+                </tr>
+                <tr style="background-color: #1C1C1C; color: #fff;">
+                    <td>Grey11</td>
+                    <td>#1C1C1C</td>
+                    <td>(28,28,28)</td>
+                </tr>
+                <tr style="background-color: #363636; color: #fff;">
+                    <td>Grey21</td>
+                    <td>#363636</td>
+                    <td>(54,54,54)</td>
+                </tr>
+                <tr style="background-color: #4F4F4F; color: #fff;">
+                    <td>Grey31</td>
+                    <td>#4F4F4F</td>
+                    <td>(79,79,79)</td>
+                </tr>
+                <tr style="background-color: dimgray; color: #fff;">
+                    <td>DimGray</td>
+                    <td>#696969</td>
+                    <td>(105,105,105)</td>
+                </tr>
+                <tr style="background-color: gray;">
+                    <td>Gray</td>
+                    <td>#808080</td>
+                    <td>(128,128,128)</td>
+                </tr>
+                <tr style="background-color: darkgray;">
+                    <td>DarkGray</td>
+                    <td>#A9A9A9</td>
+                    <td>(169,169,169)</td>
+                </tr>
+                <tr style="background-color: silver;">
+                    <td>Silver</td>
+                    <td>#C0C0C0</td>
+                    <td>(192,192,192)</td>
+                </tr>
+                <tr style="background-color: lightgrey;">
+                    <td>LightGrey</td>
+                    <td>#D3D3D3</td>
+                    <td>(211,211,211)</td>
+                </tr>
+                <tr style="background-color: gainsboro;">
+                    <td>Gainsboro</td>
+                    <td>#DCDCDC</td>
+                    <td>(220,220,220)</td>
+                </tr>
+                <tr style="background-color: white;">
+                    <td>White</td>
+                    <td>#FFFFFF</td>
+                    <td>(255,255,255)</td>
+                </tr>            
+            </table>
+
+            <table>
+                <h2>Tons de Azul - Blue Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  slateblue;">
+                    <td>SlateBlue</td>
+                    <td>#6A5ACD</td>
+                    <td>(106,90,205)</td>
+                </tr>
+                <tr style="background-color:  #836FFF;">
+                    <td>SlateBlue1  </td>
+                    <td>#836FFF</td>
+                    <td>(131,111,255)</td>
+                </tr>
+                <tr style="background-color:  #6959CD;">
+                    <td>SlateBlue3</td>
+                    <td>#6959CD</td>
+                    <td>(105,89,205)</td>
+                </tr>
+                <tr style="background-color:  darkslateblue;">
+                    <td>DarkSlateBlue</td>
+                    <td>#483D8B</td>
+                    <td>(72,61,139)</td>
+                </tr>
+                <tr style="background-color:  midnightblue;">
+                    <td>MidnightBlue</td>
+                    <td>#191970</td>
+                    <td>(25,25,112)</td>
+                </tr>
+                <tr style="background-color: navy;">
+                    <td>Navy</td>
+                    <td>#000080</td>
+                    <td>(0,0,128)</td>
+                </tr>
+                <tr style="background-color: darkblue;">
+                    <td>DarkBlue</td>
+                    <td>#00008B</td>
+                    <td>(0,0,139)</td>
+                </tr>
+                <tr style="background-color: mediumblue;">
+                    <td>MediumBlue</td>
+                    <td>#0000CD </td>
+                    <td>(0,0,205)</td>
+                </tr>
+                <tr style="background-color: blue;">
+                    <td>Blue</td>
+                    <td>#0000FF</td>
+                    <td>(0,0,255)</td>
+                </tr>
+                <tr style="background-color: cornflowerblue;">
+                    <td>CornflowerBlue</td>
+                    <td>#6495ED</td>
+                    <td>(100,149,237)</td>
+                </tr>
+                <tr style="background-color: royalblue;">
+                    <td>RoyalBlue</td>
+                    <td>#4169E1</td>
+                    <td>(65,105,225)</td>
+                </tr>
+                <tr style="background-color: dodgerblue;">
+                    <td>DodgerBlue</td>
+                    <td>#1E90FF</td>
+                    <td>(30,144,255)</td>
+                </tr>
+                <tr style="background-color: deepskyblue;">
+                    <td>DeepSkyBlue</td>
+                    <td>#00BFFF</td>
+                    <td>(0,191,255)</td>
+                </tr>
+                <tr style="background-color: lightskyblue;">
+                    <td>LightSkyBlue</td>
+                    <td>#87CEFA</td>
+                    <td>(135,206,250)</td>
+                </tr>
+                <tr style="background-color: skyblue;">
+                    <td>SkyBlue</td>
+                    <td>#87CEEB</td>
+                    <td>(135,206,235)</td>
+                </tr>
+                <tr style="background-color: lightblue;">
+                    <td>LightBlue</td>
+                    <td>#ADD8E6</td>
+                    <td>(173,216,230)</td>
+                </tr>
+                <tr style="background-color: steelblue;">
+                    <td>SteelBlue</td>
+                    <td>#4682B4</td>
+                    <td>(70,130,180)</td>
+                </tr>
+                <tr style="background-color: lightsteelblue;">
+                    <td>LightSteelBlue</td>
+                    <td>#B0C4DE</td>
+                    <td>(176,196,222)</td>
+                </tr>
+                <tr style="background-color: slategray;">
+                    <td>SlateGray</td>
+                    <td>#708090</td>
+                    <td>(112,128,144)</td>
+                </tr>
+                <tr style="background-color: lightslategray;">
+                    <td>LightSlateGray</td>
+                    <td>#778899</td>
+                    <td>(119,136,153)</td>
+                </tr>         
+            </table>
+            
+            <table>
+                <h2>Tons de Ciano - Cyan Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td>Aqua / Cyan</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td>DarkTurquoise</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Turquoise</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>MediumTurquoise</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>LightSeaGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkCyan</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Teal</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Aquamarine  </td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>MediumAquamarine</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>CadetBlue</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+            </table>
+
+            <table>
+                <h2>Tons de Verde - Green Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td>DarkSlateGray</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td>MediumSpringGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>SpringGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>PaleGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>LightGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkSeaGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>MediumSeaGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>SeaGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Green</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td>ForestGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td>LimeGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Lime</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>LawnGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Chartreuse</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>GreenYellow</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>YellowGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>OliveDrab</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkOliveGreen</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Olive</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+            </table>
+
+            <table>
+                <h2>Tons de Marrom - Brown Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td>DarkKhaki</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td>Goldenrod</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkGoldenrod</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>SaddleBrown</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Sienna</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>RosyBrown</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Peru</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Chocolate</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>SandyBrown</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>NavajoWhite</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Wheat</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>BurlyWood</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Tan</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+            </table>
+
+            <table>
+                <h2>Tons de Roxo - Purple Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td>MediumSlateBlue</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td>MediumPurple</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>BlueViolet</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Indigo</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkViolet</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkOrchid</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>MediumOrchid</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Purple</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>DarkMagenta</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Fuchsia / Magenta</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Violet</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Orchid</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td>Plum</td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+            </table>
+
+            <table>
+                <h2>Tons de Rosa - Pink Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  #C71585;">
+                    <td>MediumVioletRed </td>
+                    <td>#C71585</td>
+                    <td>(199,21,133)</td>
+                </tr>  
+                <tr style="background-color:  #FF1493;">
+                    <td>DeepPink</td>
+                    <td>#FF1493</td>
+                    <td>(255,20,147)</td>
+                </tr> 
+                <tr style="background-color:  #FF69B4;">
+                    <td>HotPink</td>
+                    <td>#FF69B4</td>
+                    <td>(255,105,180)</td>
+                </tr> 
+                <tr style="background-color:  #DB7093;">
+                    <td>PaleVioletRed</td>
+                    <td>#DB7093</td>
+                    <td>(219,112,147)</td>
+                </tr> 
+                <tr style="background-color:  #FFB6C1;">
+                    <td>LightPink</td>
+                    <td>#FFB6C1</td>
+                    <td>(255,182,193)</td>
+                </tr> 
+                <tr style="background-color:  #FFC0CB;">
+                    <td>Pink</td>
+                    <td>#FFC0CB</td>
+                    <td>(255,192,203)</td>
+                </tr> 
+                <tr style="background-color:  #F08080;">
+                    <td>LightCoral</td>
+                    <td>#F08080</td>
+                    <td>(240,128,128)</td>
+                </tr> 
+                <tr style="background-color:  #CD5C5C;">
+                    <td>IndianRed</td>
+                    <td>#CD5C5C</td>
+                    <td>(205,92,92)</td>
+                </tr> 
+                <tr style="background-color:  #DC143C;">
+                    <td>Crimson</td>
+                    <td>#DC143C</td>
+                    <td>(220,20,60)</td>
+                </tr>
+            </table>
+
+            <table>
+                <h2>Tons de Vermelho - Red Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  #800000;">
+                    <td>Maroon</td>
+                    <td>#800000</td>
+                    <td>(128,0,0)</td>
+                </tr>  
+                <tr style="background-color:  #8B0000;">
+                    <td>DarkRed</td>
+                    <td>#8B0000</td>
+                    <td>(139,0,0)</td>
+                </tr> 
+                <tr style="background-color:  #B22222;">
+                    <td>FireBrick</td>
+                    <td>#B22222</td>
+                    <td>(178,34,34)</td>
+                </tr> 
+                <tr style="background-color:  #A52A2A;">
+                    <td>Brown</td>
+                    <td>#A52A2A</td>
+                    <td>(165,42,42)</td>
+                </tr> 
+                <tr style="background-color:  #FA8072;">
+                    <td>Salmon</td>
+                    <td>#FA8072</td>
+                    <td>(250,128,114)</td>
+                </tr> 
+                <tr style="background-color:  #E9967A;">
+                    <td>DarkSalmon</td>
+                    <td>#E9967A</td>
+                    <td>(233,150,122)</td>
+                </tr> 
+                <tr style="background-color:  #FFA07A;">
+                    <td>LightSalmon</td>
+                    <td>#FFA07A</td>
+                    <td>(255,160,122)</td>
+                </tr> 
+                <tr style="background-color:  #FF7F50;">
+                    <td>Coral</td>
+                    <td>#FF7F50</td>
+                    <td>(255,127,80)</td>
+                </tr> 
+                <tr style="background-color:  #FF6347;">
+                    <td>Tomato</td>
+                    <td>#FF6347</td>
+                    <td>(255,99,71)</td>
+                </tr>
+                <tr style="background-color: #FF0000;">
+                    <td>Red</td>
+                    <td>#FF0000</td>
+                    <td>(255,0,0)</td>
+                </tr>
+            </table>
+
+            <table>
+                <h2>Tons de Laranja - Orange Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color: #FF4500;">
+                    <td>OrangeRed</td>
+                    <td>#FF4500</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color: #FF8C00;">
+                    <td>DarkOrange</td>
+                    <td>#FF8C00</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color: #FFA500;">
+                    <td>Orange</td>
+                    <td>#FFA500</td>
+                    <td>()</td>
+                </tr> 
+            </table>
+
+            <table>
+                <h2>Tons de Amarelo - Yellow Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color: #FFD700;">
+                    <td>Gold</td>
+                    <td>#FFD700</td>
+                    <td>(255,215,0)</td>
+                </tr>  
+                <tr style="background-color: #FFFF00;">
+                    <td>Yellow</td>
+                    <td>#FFFF00</td>
+                    <td>(255,255,0)</td>
+                </tr> 
+                <tr style="background-color: #F0E68C;">
+                    <td>Khaki</td>
+                    <td>#F0E68C</td>
+                    <td>(240,230,140)</td>
+                </tr> 
+            </table>
+
+            <table>
+                <h2>Tons Pastel - Light Colors</h2>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Hexadecimal:</td>
+                    <td>RGB:</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>            
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>  
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr> 
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  ;">
+                    <td></td>
+                    <td>#</td>
+                    <td>()</td>
+                </tr>
+                <tr style="background-color:  mintcream;">
+                    <td>MintCream</td>
+                    <td>#F5FFFA</td>
+                    <td>(245,255,250)</td>
+                </tr>
             </table>
         </article>
-        
-        <table>
-            <h2 class="margintop">Tons de Cinza - Gray Colors</h2>
-            <tr>
-                <th>Nome:</th>
-                <th>Hexadecimal:</th>
-                <th>RGB:</th>
-            </tr>
-            <tr style="background-color: dimgray">
-                <th>DimGray</th>
-                <th>#696969</th>
-                <th>(105,105,105)</th>
-            </tr>
-            <tr style="background-color: gray">
-                <th>Gray</th>
-                <th>#808080</th>
-                <th>(128,128,128)</th>
-            </tr>
-            <tr style="background-color: darkgray">
-                <th>DarkGray</th>
-                <th>#A9A9A9</th>
-                <th>(169,169,169)</th>
-            </tr>
-            <tr style="background-color: silver">
-                <th>Silver</th>
-                <th>#C0C0C0</th>
-                <th>(192,192,192)</th>
-            </tr>
-            <tr style="background-color: lightgrey">
-                <th>LightGrey</th>
-                <th>#D3D3D3</th>
-                <th>(211,211,211)</th>
-            </tr>
-            <tr style="background-color: gainsboro">
-                <th>Gainsboro</th>
-                <th>#DCDCDC</th>
-                <th>(220,220,220)</th>
-            </tr>
-            <tr style="background-color: white">
-                <th>White</th>
-                <th>#FFFFFF</th>
-                <th>(255,255,255)</th>
-            </tr>            
-        </table>
-
-        <table>
-            <h2 class="margintop">Tons de Azul - Blue Colors</h2>
-            <tr>
-                <th>Nome:</th>
-                <th>Hexadecimal:</th>
-                <th>RGB:</th>
-            </tr>
-            <tr style="background-color:  slateblue">
-                <th>SlateBlue</th>
-                <th>#6A5ACD</th>
-                <th>(106,90,205)</th>
-            </tr>
-            <tr style="background-color:  darkslateblue">
-                <th>DarkSlateBlue</th>
-                <th>#483D8B</th>
-                <th>(72,61,139)</th>
-            </tr>
-            <tr style="background-color:  midnightblue">
-                <th>MidnightBlue</th>
-                <th>#191970</th>
-                <th>(25,25,112)</th>
-            </tr>
-            <tr style="background-color: navy">
-                <th>Navy</th>
-                <th>#000080</th>
-                <th>(0,0,128)</th>
-            </tr>
-            <tr style="background-color: darkblue">
-                <th>DarkBlue</th>
-                <th>#00008B</th>
-                <th>(0,0,139)</th>
-            </tr>
-            <tr style="background-color: mediumblue">
-                <th>MediumBlue</th>
-                <th>#0000CD </th>
-                <th>(0,0,205)</th>
-            </tr>
-            <tr style="background-color: blue">
-                <th>Blue</th>
-                <th>#0000FF</th>
-                <th>(0,0,255)</th>
-            </tr>
-            <tr style="background-color: cornflowerblue">
-                <th>CornflowerBlue</th>
-                <th>#6495ED</th>
-                <th>(100,149,237)</th>
-            </tr>
-            <tr style="background-color: royalblue">
-                <th>RoyalBlue</th>
-                <th>#4169E1</th>
-                <th>(65,105,225)</th>
-            </tr>
-            <tr style="background-color: dodgerblue">
-                <th>DodgerBlue</th>
-                <th>#1E90FF</th>
-                <th>(30,144,255)</th>
-            </tr>
-            <tr style="background-color: deepskyblue">
-                <th>DeepSkyBlue</th>
-                <th>#00BFFF</th>
-                <th>(0,191,255)</th>
-            </tr>
-            <tr style="background-color: lightskyblue">
-                <th>LightSkyBlue</th>
-                <th>#87CEFA</th>
-                <th>(135,206,250)</th>
-            </tr>
-            <tr style="background-color: skyblue">
-                <th>SkyBlue</th>
-                <th>#87CEEB</th>
-                <th>(135,206,235)</th>
-            </tr>
-            <tr style="background-color: lightblue">
-                <th>LightBlue</th>
-                <th>#ADD8E6</th>
-                <th>(173,216,230)</th>
-            </tr>
-            <tr style="background-color: steelblue">
-                <th>SteelBlue</th>
-                <th>#4682B4</th>
-                <th>(70,130,180)</th>
-            </tr>
-            <tr style="background-color: lightsteelblue">
-                <th>LightSteelBlue</th>
-                <th>#B0C4DE</th>
-                <th>(176,196,222)</th>
-            </tr>
-            <tr style="background-color: slategray">
-                <th>SlateGray</th>
-                <th>#708090</th>
-                <th>(112,128,144)</th>
-            </tr>
-            <tr style="background-color: lightslategray">
-                <th>LightSlateGray</th>
-                <th>#778899</th>
-                <th>(119,136,153)</th>
-            </tr>         
-        </table>
-
     </section>
+
+
+
+
 
     <aside>
         
